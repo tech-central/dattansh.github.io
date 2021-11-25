@@ -251,7 +251,9 @@ License: https://themeforest.net/licenses/standard
 			
 		}
 		
-		
+		if(body.hasClass('mobile')) {
+			$('.video-wrapper, .player').css('display', 'block');	
+		}
 		
 		// GMap Background
 		if($('#gmap-background').length){
@@ -655,7 +657,7 @@ License: https://themeforest.net/licenses/standard
 				$.smoothScroll({
 					offset: 0,
 					easing: 'swing',
-					speed: 1000,
+					speed: 800,
 					scrollTarget: sScroll_target,
 					scrollElement: rightSide
 				});
