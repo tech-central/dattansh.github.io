@@ -309,7 +309,7 @@ section,
 .section {
 	position: relative;
 	overflow: hidden;
-	padding: 90px 0;
+	padding: 80px 0;
 }
 
 .fullscreen-element,
@@ -322,11 +322,7 @@ section,
 	background-position: cover;
 	background: url(images/back.jpg) no-repeat center;
 }
-#subscribe, #portfolio, #services{
-		background-position: cover;
-		background: url(images/back.jpg) no-repeat center;
-	
-}
+
 #subscribe{
 	padding:0px;
 }
@@ -458,13 +454,14 @@ body.ov-active .right-side {
 }
 
 .header-logo {
-	height: 70px;
+	height: 60px;
 	line-height: 70px;
 	position: fixed;
 	top: 5px;
+	width: 260px;
 	bottom: 0;
 	left: 0;
-	margin-left: 30px;
+	margin-left: 10px;
 	font-size: 21px;
 	font-weight: 600;
 	color: #fff;
@@ -2340,9 +2337,7 @@ div.pswp__caption__center {
 	right: -20px;
 }
 
-body.mobile .overlay-video {
-	display: none;
-}
+
 
 
 /*------------------------------------------------------------------
