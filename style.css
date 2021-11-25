@@ -5397,15 +5397,7 @@ body.mobile {
 	-webkit-text-size-adjust:none;
 }
 
-body.mobile .animated {
-	display: block;
-	visibility: visible;
-}
 
-body.mobile .mobile-hidden {
-	display: none;
-	visibility: hidden;
-}
 
 body.mobile .main-container .right-side .section > .overlay > .overlay-wrapper.parallax-wrapper {
     height: 100%;

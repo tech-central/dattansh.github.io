@@ -655,7 +655,7 @@ License: https://themeforest.net/licenses/standard
 				$.smoothScroll({
 					offset: 0,
 					easing: 'swing',
-					speed: 800,
+					speed: 1000,
 					scrollTarget: sScroll_target,
 					scrollElement: rightSide
 				});
