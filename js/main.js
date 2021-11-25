@@ -252,7 +252,7 @@ License: https://themeforest.net/licenses/standard
 		}
 		
 		if(body.hasClass('mobile')) {
-			$('.video-wrapper, .player').css('display', 'block');	
+			$('.video-wrapper, .player').css('display', 'none');	
 		}
 		
 		// GMap Background
