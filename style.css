@@ -2330,14 +2330,16 @@ div.pswp__caption__center {
 }
 
 .overlay-video {
-	background-color: transparent;
+	background-color: #000;
 	top: -20px;
 	bottom: -20px;
 	left: -20px;
 	right: -20px;
 }
 
-
+body.mobile .overlay-video {
+	display: none;
+}
 
 
 /*------------------------------------------------------------------

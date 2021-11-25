@@ -789,8 +789,8 @@ License: https://themeforest.net/licenses/standard
 				patterns: {
 					youtube: {
 						index: 'youtube.com/',
-						id: 'v=',
-						src: '//www.youtube.com/embed/%id%?autoplay=1' // URL that will be set as a source for iframe.
+						
+						src: '//www.youtube.com/embed/' // URL that will be set as a source for iframe.
 					},
 					vimeo: {
 						index: 'vimeo.com/',
