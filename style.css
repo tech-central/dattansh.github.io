@@ -2338,7 +2338,7 @@ div.pswp__caption__center {
 }
 
 body.mobile .overlay-video {
-	display: none;
+	display: block;
 }
 
 

@@ -166,32 +166,7 @@ License: https://themeforest.net/licenses/standard
 		}
 
 		// Slideshow & Video Background
-		if (body.hasClass('slideshow-video-background')) {
-			body.vegas({
-				preload: true,
-				timer: false,
-				delay: 5000,
-				transition: 'fade',
-				transitionDuration: 1000,
-				slides: [
-					{ src: 'demo/images/image-7.jpg' },
-					{ src: 'demo/video/marine.jpg',
-						video: {
-							src: [
-								'demo/video/marine.mp4',
-								'demo/video/marine.webm',
-								'demo/video/marine.ogv'
-							],
-							loop: false,
-							mute: true
-						}
-					},
-					{ src: 'demo/images/image-28.jpg' },
-					{ src: 'demo/images/image-13.jpg' },
-					{ src: 'demo/images/image-31.jpg' }
-				]
-			});
-		}
+	
 
 		// Kenburns Background
 		if (body.hasClass('kenburns-background')) {
