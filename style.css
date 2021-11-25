@@ -320,7 +320,7 @@ section,
 }
 #about{
 	background-position: cover;
-	background: url(images/back.jpg) no-repeat center;
+	background-color: whitesmoke;
 }
 
 #subscribe{
