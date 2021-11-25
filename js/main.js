@@ -207,7 +207,7 @@ License: https://themeforest.net/licenses/standard
 		// Youtube Video Background
 		if ($('#youtube-background').length > 0) {
 			var videos = [
-				{videoURL: "0pXYp72dwl0", showControls:false, containment:'.overlay-video',autoPlay:true, mute:false, startAt:0,opacity:1, loop:false, showYTLogo:false, realfullscreen: true, addRaster:true}
+				{videoURL: "0pXYp72dwl0", showControls:false, containment:'.overlay-video',autoPlay:true, mute:false, startAt:0,opacity:1, loop:true, showYTLogo:false, realfullscreen: true, addRaster:false}
 			];
 
 			$('.player').YTPlaylist(videos, true);
@@ -217,9 +217,7 @@ License: https://themeforest.net/licenses/standard
 		if ($('#youtube-multiple-background').length > 0) {
 			
 			var videos = [
-				{videoURL: "eTD0WWFIDAg", showControls:false, containment:'.overlay-video',autoPlay:false, mute:true, startAt:0,opacity:1, loop:true, showYTLogo:false, realfullscreen: true, addRaster:false},
-				{videoURL: "eTD0WWFIDAg", showControls:false, containment:'.overlay-video',autoPlay:false, mute:true, startAt:30,opacity:1, loop:true, showYTLogo:false, realfullscreen: true, addRaster:false},
-				{videoURL: "eTD0WWFIDAg", showControls:false, containment:'.overlay-video',autoPlay:false, mute:true, startAt:60,opacity:1, loop:true, showYTLogo:false, realfullscreen: true, addRaster:false}
+				{videoURL: "eTD0WWFIDAg", showControls:false, containment:'.overlay-video',autoPlay:true, mute:true, startAt:0,opacity:1, loop:true, showYTLogo:false, realfullscreen: true, addRaster:false},
 			];
 
 			$('.player').YTPlaylist(videos, true);
